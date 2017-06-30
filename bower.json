@@ -1,0 +1,25 @@
+{
+  "name": "querymaker",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Joseph Monroe"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react-tagsinput": "^3.17.0",
+    "react-tageditor": "*"
+  },
+  "resolutions": {
+    "react": "~0.13.3"
+  }
+}

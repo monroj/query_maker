@@ -1,0 +1,43 @@
+{
+  "name": "react-tagsinput",
+  "main": [
+    "react-tagsinput.js",
+    "react-tagsinput.css"
+  ],
+  "version": "3.17.0",
+  "homepage": "https://github.com/olahol/react-tagsinput",
+  "description": "Highly customizable React component for inputing tags",
+  "keywords": [
+    "react",
+    "tags",
+    "input",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "authors": [
+    "Ola Holmström <olaholmstrom@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example"
+  ],
+  "dependencies": {
+    "react": "^0.14.0"
+  },
+  "_release": "3.17.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.17.0",
+    "commit": "8331e0de35c93c73ce7dbdf8fa68d82907ca59fc"
+  },
+  "_source": "https://github.com/olahol/react-tagsinput.git",
+  "_target": "^3.17.0",
+  "_originalSource": "react-tagsinput",
+  "_direct": true
+}
