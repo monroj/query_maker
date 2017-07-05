@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Example from './components/Example';
+import Tags from './components/Tags';
 import Dropdown from './components/drop-downs/drop-down';
 import styled from 'styled-components';
 
@@ -40,7 +40,6 @@ const LookupLink = styled.button`
 //const renderOptions = ['option 1', 'option 2', 'option 3', 'option 4'].map((item, index) => (<Item key={index} onClick={onOptionClick}>{item}</Item>));
 
 const MainWrapper = styled.div`
- 
    padding: 23.5px;
    border: solid grey;
    display: flex;
@@ -50,7 +49,6 @@ const MainWrapper = styled.div`
 class App extends React.Component<AProps, AState> {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       attr1text: 'Select an attrubute',
       attr2text: 'Select an element'
@@ -81,7 +79,7 @@ class App extends React.Component<AProps, AState> {
       <MainWrapper className="App">
         <Dropdown dropdownText={this.state.attr1text} > {this.mapAttributes()} </Dropdown>
         <Dropdown dropdownText={this.state.attr2text} > {this.mapOperators()} </Dropdown>
-        <Example tags={[]} />
+        <Tags />
         <LookupLink >Lookup</LookupLink>
       </MainWrapper>
     );

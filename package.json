@@ -11,6 +11,8 @@
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
     "react-edit-inline": "^1.0.8",
+    "react-input-autosize": "^1.1.4",
+    "react-items-list": "0.0.9",
     "react-select": "^1.0.0-rc.5",
     "react-tag-autocomplete": "^5.4.0",
     "react-tag-input": "^4.7.2",
@@ -19,6 +21,7 @@
     "react-tags-editor": "0.0.18",
     "react-tagsinput": "^3.17.0",
     "riek": "^1.1.0",
+    "simple-react-editable": "^1.0.3",
     "styled-components": "^2.1.0"
   },
   "devDependencies": {
